@@ -1,0 +1,21 @@
+/*
+file: medi di tre numeri con visualizzazione di 2 numeri decimali 
+autore: riccardo conte
+data: 28/09/22
+*/
+#include <stdio.h>
+int main ()
+{
+float voto1,voto2,voto3;
+float media;
+printf("inserisci il primo numero ");
+scanf("%f",&voto1);
+printf("inserisci il secondo numero ");
+scanf("%f",&voto2);
+printf("inserisci il terzo numero ");
+scanf("%f",&voto3);
+media=(voto1+voto2+voto3)/3;
+printf("la media dei voti e' %f",media);
+return 0;
+
+}
