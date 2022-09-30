@@ -1,0 +1,17 @@
+/* 
+calcolo area del cerchio
+nome: riccardo conte
+data: 30/09/22
+*/
+#include <stdio.h>
+#define PI_GRECO 3.14
+int main()
+{
+	float raggio;
+	float area;
+	printf("inserisci il raggio ");
+	 scanf("%f",&raggio);
+	area = raggio * raggio * PI_GRECO;
+	 printf("l'area del cerchio e' %f ", area);
+	 return 0;
+}
